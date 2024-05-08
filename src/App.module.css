@@ -1,0 +1,149 @@
+body{
+    background-color: #d0d1db;
+}
+
+@keyframes colorchange {
+    0% { color: blue; }
+    10% { color: #8e44ad; }
+    20% { color: #1abc9c; }
+    30% { color: #d35400; }
+    40% { color: rgb(71, 71, 176); }
+    50% { color: #34495e; }
+    60% { color: rgb(63, 63, 120); }
+    70% { color: #2980b9; }
+    80% { color: #5b563b; }
+    90% { color: #2980b9; }
+    100% { color: rgb(240, 82, 108); }
+}
+
+.appName {
+    
+    color: blue;
+    font-size: 5em;
+    font-weight: bold;
+    font-style: italic;
+    animation: colorchange 20s infinite; /* Standard animation property */
+}
+
+.centerFlexingColumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centerFlexingRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subheadingLine{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: -100px;
+}
+
+.heading,
+.subheadingLine {
+    margin: 0.2em; /* Resetting margin to 0 */
+}
+
+.inputField {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+    padding: 10px;
+}
+
+.inputField:focus {
+    border-color: #007bff; /* Change color to your preferred focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box-shadow when focused */
+}
+
+.inputBoxContainer{
+    margin: 5rem;
+}
+
+.addNewHabitButton{
+    margin-left: 1.5em;
+}
+
+
+.customBtn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+
+/* 1 */
+.btn1 {
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+  }
+  .btn1:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+
+.blankList{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(7, 7, 8);
+
+}
+
+.crossBoxLabel {
+    text-decoration: line-through;
+}
+
+.noteRightOrWrong{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.marginLeft{
+    margin-left: 2em;
+}
+
+.marginTop{
+    margin-top: 1.5em;
+}
+
+.radioButtonSize{
+    width: 20px;
+    height: 20px;
+}
+
+.habitName{
+    font-size: 1.5em;
+    color: #1abc9c;
+    font-weight: bold;
+    font-style: italic;
+    
+}
