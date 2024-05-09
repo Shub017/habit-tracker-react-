@@ -7,7 +7,7 @@ export const HomePage = ()=>{
         <div className={styles.backgroundColor}>
         <h1 className={styles.Heading}>Welcome to Habit Tracker App</h1>
         <div className={styles.ImageBox}>
-            <img src={image1}></img>
+            <img src={image1} alt='homePic'></img>
             <button className={`${styles.customBtn} ${styles.btn1}`} onClick={()=>{navigate('/HabitTracker')}}>Get Started!</button>
         </div>
         </div>

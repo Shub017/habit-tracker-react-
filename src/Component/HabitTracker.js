@@ -60,8 +60,8 @@ export function HabitTracker() {
       {habitList.length !== 0?
         <div className={styles.noteRightOrWrong}>
         <p >Note: Left One is for done✅ </p>
-        <p>  Right one is for not done❌</p>
-        <p> Last one is for None🚫</p>
+        <p>  Middle one is for not done❌</p>
+        <p> Right one is for None🚫</p>
         </div>
         :''}
       {habitList.length !== 0?
